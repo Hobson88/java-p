@@ -6,9 +6,10 @@ import javax.swing.*;
 
 public class Hello {
     public static void main(String[] args) {
-       d for (int i = 0; i < 1000; i++) {
-            System.out.println("Hello World! " + i);
-            //JOptionPane.showMessageDialog(null, "FORMAT DYSKU TRWA! ");
-        }
+
+        System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+        System.out.println();
+        System.out.println("JRE version: "+ System.getProperty("java.runtime.version"));
+        System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
     }
 }
